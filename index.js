@@ -1,6 +1,6 @@
 'use strict';
 hexo.on('generateBefore', function () {
-  if (!hexo.config.qcloudcos || !hexo.config.qcloudcos.enable) {
+  if (hexo.env.cmd === 'server' || !hexo.config.qcloudcos || !hexo.config.qcloudcos.enable) {
     return;
   }
   if (hexo.config.qcloudcos.onlypost) {
