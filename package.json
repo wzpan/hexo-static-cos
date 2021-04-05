@@ -1,11 +1,39 @@
 {
-  "name": "hexo-qcloudcos",
-  "version": "0.0.3",
+  "_from": "hexo-qcloudcos@0.0.3",
+  "_id": "hexo-qcloudcos@0.0.3",
+  "_inBundle": false,
+  "_integrity": "sha512-CbKijYhGVeefMrLO1cwU1eeH/ctjpz20nFJMyxmHsEoWz2uLkjDYfLaaxVs+qqjB8CIDaoMhW+4kIVU2krm8Zw==",
+  "_location": "/hexo-qcloudcos",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "hexo-qcloudcos@0.0.3",
+    "name": "hexo-qcloudcos",
+    "escapedName": "hexo-qcloudcos",
+    "rawSpec": "0.0.3",
+    "saveSpec": null,
+    "fetchSpec": "0.0.3"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/hexo-qcloudcos/-/hexo-qcloudcos-0.0.3.tgz",
+  "_shasum": "9b791176b16bd8c84c6e928cb900586e5a7f319e",
+  "_spec": "hexo-qcloudcos@0.0.3",
+  "author": {
+    "name": "wzpan",
+    "email": "m@hahack.com",
+    "url": "http://hahack.com"
+  },
+  "bugs": {
+    "url": "https://github.com/julydate/hexo-static-cos/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
   "description": "Use qcloud COS/CDN to speed your static files on hexo",
-  "main": "index",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wzpan/hexo-static-cos.git"
+  "engines": {
+    "node": ">=8.6.0"
   },
   "homepage": "http://hahack.com",
   "keywords": [
@@ -15,15 +43,15 @@
     "cdn",
     "static"
   ],
-  "author": "Julydate <i@xhtml.love> (http://julydate.github.io); Weizhou Pan <m@hahack.com>",
   "license": "MIT",
-  "engines": {
-    "node": ">=8.6.0"
-  },
-  "bugs": {
-    "url": "https://github.com/julydate/hexo-static-cos/issues"
+  "main": "index",
+  "name": "hexo-qcloudcos",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wzpan/hexo-static-cos.git"
   },
   "scripts": {
     "test": "npm test"
-  }
+  },
+  "version": "0.0.3"
 }
